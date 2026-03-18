@@ -1,4 +1,4 @@
-import fastify from "./weather/router.js" 
+import fastify from "./app.js"
 
 const start = async (): Promise<void> => {
   try {
