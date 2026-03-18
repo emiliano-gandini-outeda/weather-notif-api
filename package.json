@@ -1,4 +1,7 @@
 {
+  "name": "weather-notif-api",
+  "version": "0.0.0",
+  "description": "Fastify service that exposes summarized Open-Meteo forecasts.",
   "type": "module",
   "dependencies": {
     "fastify": "^5.8.2",
