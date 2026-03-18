@@ -1,6 +1,8 @@
 {
+  "type": "module",
   "dependencies": {
-    "fastify": "^5.8.2"
+    "fastify": "^5.8.2",
+    "openmeteo": "^1.2.3"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
@@ -9,8 +11,8 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-  "dev": "tsx watch src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   }
 }
